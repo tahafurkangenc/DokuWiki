@@ -1,0 +1,7 @@
+Ders Kodu : BLM101
+
+Ders Adi : InsaatMuhendisligi
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[EminGungor]] emingngr@kocaeli.edu.tr 0233789456
+
+Ders Icerigi : Bu ders insaat muhendisligine yeni başlamış olanlar içindir.

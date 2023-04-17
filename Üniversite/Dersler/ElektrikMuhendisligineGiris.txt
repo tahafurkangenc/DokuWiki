@@ -1,0 +1,7 @@
+Ders Kodu : BLM120
+
+Ders Adi : Elektrik Muhendisligi
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[DiyarSalman]] diyar@kocaeli.edu.tr 028769384264
+
+Ders Icerigi : Bu ders Elektrik Muhendisligi bolumune yeni baslayanlara bolumu tanıtmak icindir.

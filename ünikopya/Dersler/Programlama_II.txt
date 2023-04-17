@@ -1,0 +1,7 @@
+Dersin Kodu   : BLM102
+
+Dersin Adi    : Programlama II
+
+Ogretim Elemanlari : Prof. Dr. [[Ahmet ERDIL]]	erdil@kocaeli.edu.tr	02623033223
+
+Dersin Icerigi: [[Programlama_I]] dersinin devami niteligindedir.Programlama_I etiket denemesi

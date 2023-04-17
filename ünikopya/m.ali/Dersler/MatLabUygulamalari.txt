@@ -1,0 +1,7 @@
+Ders Kodu: BLM150
+
+Ders Adi : [[MatlabUygulmalari]]
+
+Ogretim Elemanlari : Prof. Dr. [[ErdincGocmen]] erdincgocmen@kocaeli.edu.tr 027839553026
+
+Ders Icerigi: Bu ders Matlab uygulamasinin mesleki anlamda kullaniminin aktarilmasi ve uygulanmasi icindir.

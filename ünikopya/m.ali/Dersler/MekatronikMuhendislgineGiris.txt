@@ -1,0 +1,7 @@
+Ders Kodu : BLM181
+
+Ders Adi : [[MekatronikMuhendisligineGiris]]
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[HuseyinTarifli]] tariflihusyin@kocaeli.edu.tr 02197483462
+
+Ders Icrigi : Bu ders Mekatronik Muhendisligi bolumune yeni baslayan ogrencilere bolumu tanitmak icindir.

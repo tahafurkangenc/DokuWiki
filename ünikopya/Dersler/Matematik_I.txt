@@ -1,0 +1,7 @@
+Dersin Kodu   : BLM102
+
+Dersin Adi    : Matematik I
+
+Ogretim Elemanlari : Prof. Dr. [[Ahmet ERDIL]]	erdil@kocaeli.edu.tr	02623033223
+                    
+Dersin Icerigi: Bu ders fonksiyonlar, logaritmik, ustel, ters trigonometrik ve hiperbolik fonksiyonlar, limit ve belirsizlikler, sureklilik, turev ve uygulamaları, belirsiz integral, integral alma yontemleri, belirli integral ve uygulamalari, ve sonsuz seriler konularini kapsar.

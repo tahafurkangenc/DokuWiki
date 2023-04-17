@@ -1,0 +1,186 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+\usepackage{textcomp}
+\usepackage{xcolor}
+\graphicspath{ {C:/İndirilenler/} }
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{DokuWiki Proje Raporu\\
+}
+
+\author{\IEEEauthorblockN{ Taha Furkan Genç}
+\IEEEauthorblockA{\textit{Öğrenci No :210201077} \\}
+\and
+\IEEEauthorblockN{ Mehmet Ali Kır}
+\IEEEauthorblockA{\textit{Öğrenci No: 210201033} \\}
+}
+
+\maketitle
+
+\begin{abstract}
+                    Özet\\
+Bu rapor 2022-2023 öğretim yılı Kocaeli Üniversitesi 2. sınıf öğrencileri Taha Furkan Genç ve Mehmet Ali Kır tarafından Programlama Labaratuvarı I dersinin 1. projesi için hazırlanmıştır. İçerikte projeden genel anlamıyla bahsedilmiş olup gerçekleştirilen eylemler, verimlilik, sunum, analiz ve projenin hedefteki istenilen amaca hizmet etme şekli ve miktarından bahsedilmiştir. 
+\end{abstract}
+
+\section{Giriş}
+
+\subsection{Projenin Genel Tanımı}
+DokuWiki adlı bu proje genel bir klasör içerisinden özel klasörler içerisine girip tüm dosyalara erişim sağlanabilen, bu dosyaların içerisinde etiket adlı özel karakter yapılanmalarını sınıflandırıp aynı zamanda etiket olarak bulunup dosya olarak bulunmayan yetim etiketleri ve dosya olarak bulunup etiket olarak bulunmayan istenen etiketleri sayılarıyla listeleyebilen ve kelime araması yapıp listeleyebilen (sayı ve konumlarıyla beraber), yetim etiketlerin dosyasının eklenilebilip yetim etiket durumundan çıkarılabilerek ya da normal etiketlerin isimlerinin değiştirilerek güncellenebildiği ve son olarak dosyanın içeriğinde de değişiklik yapılabilip çıktıkların tamamının genel klasörün dizinindeki output.txt dosyasına bastırılabilindiği bir programdır.
+
+\subsection{Projenin Gerçekleştirilirken İzlenecek Adımların Belirlenmesi}
+Bu kısımda projede istenilenler ve bize verilen bilgiler doğrultusunda adımların belirlenmesi sağlanacaktır. Adımlar şöyle belirlenmiştir: Klasörlerin içlerini tarayarak dosyalara erişim sağlamak, etiketlerin tespit edilerek sayılması ve listelenmesi, istenen bir ifadenin aranarak kelime olarak mı etiket olarak mı bulunduğunun belirtilmesi, yetim etiketlerin belirlenmesi, istenen etiketlerin belirlenmesi, dosya içeriğinde spesifik değişiklikler yapılabilmesi, yetim ve istenen etiketlerin etiket yazılarak ya da dosya oluşturularak bu durumun güncellenmesi, istenilen etiketlerin isminin değiştirilebilmesi ve tüm bu çıktıların Üniversite klasörünün içinde yer alacak olan output.txt dosyasına yazdırılması gerekmektedir. Bu sırayla ilerlenerek yığılımlı biçimde istenen fonksiyonlar gerçekleştirilecektir.
+
+\section{Kodun Genel İlerleyişi}
+
+\subsection{Dosya ve Dosya Yollarının Taranaması}
+
+Öncelikle dosyalara erişmek için kod ve erişilecek dosyanın olduğu nihai dizinden başlanılarak Üniversite klasörünün içine girilip onun da alt klasörlerine inilerek her dosyanın varlığı saptanmalı ve dirent.h kütüphanesi ile dosya yolları alınmalıdır. Fig 1 de gösterildiği gibi.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{dir liste.png}
+\caption{Dosya listeleme fonksiyonu \label{overflow}}
+\end{figure}
+
+\subsection{Etiketlerin Tespit Edilerek Sayılması ve Listelenmesi}
+Dosyalara erişilip içleri tarandıktan sonra sıra etiketlerin belirlenmesine gelmektedir. Etiketlerin tespiti için string karşılaştırma fonksiyonu kullanılarak satır satır gezilip etiketler tek tek bulunacaklardır.Tek tek bulunan etiketler geçici bir listeye alınır ve birleştirilerek güncelleme yapılma ihtimaline karşın önceki liste olarak yazdırılır. Fig 2 de gösterildiği gibi(Resimde net görülmemesinin halinde kod satırları belirtilmiştir).
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{etikt tarama.png}
+\caption{Kodun etiket tarama kısmı (400. ila 450. satırlar arası)\label{overflow}}
+\end{figure}
+
+
+\subsection{Aranan İfadenin Kelime ve veya Etiket Olarak Bulunduğunun Belirtilmesi}
+\begin{itemize}
+\item Öncelikle alınan ifadenin yapısı yani etiket mi yoksa kelime mi olduğu belirleniyor.
+\item Sonraki adım ise belirlemeden sonra tek tek arayarak yerlerini ortaya çıkararak sonuç olarak göstermek. Fig 3 de gösterildiği gibi(Resim okunaklı değilse kod satır aralıkları belirtilmiştir).
+\end{itemize}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{etiket ve kelime arama.png}
+\caption{Etiket veya kelimenin arandığını gösteren kısım (701. ila 729. satırlar arası)\label{overflow}}
+\end{figure}
+
+\subsection{Yetim etiketlerin belirlenmesi}
+Programımızdaki özgün başka bir etmense yetim etiketler. Etiket olarak bulunan fakat dosyası bulunmayan etiketlere yetim etiket adını veririz. Tespiti ise alınan her etiktin tüm dosya adları ile (dirent.h sayesinde alınabilen dosya yolundan ayrıştırılmış dosya isimleri) tek tek karşılaştırılarak durumunun belirlenmesi ile gerçekleşir. Fig 4 de belirtildiği gibi(Resim okunaklı değilse kod satır aralıkları belirtilmiştir).
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{yetimetkt.png}
+\caption{Yetim etiketin tespitini sağlayan kod kısmı (458. ila 491. satırlar arası)\label{overflow}}
+\end{figure}
+
+\subsection{İstenen Etiketlerin Belirlenmesi}
+İstenen etiket dosyası olup etiket olarak bulunmayan etiketlerdir. Bundan dolayı dosya isimleri etiket olarak gösterilerek  etiket isimleri ile karşılaştırılır. Bu karşılaştırmaya göre istenen etiktin varlığı belirlenir.Fig 5 de görüldüğü üzere(Resimde bulankısa belirtilen kod satırlarından bulabilirsiniz).
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{istenen etiket.png}
+\caption{İstenen etiketin tespitini sağlayan kod kısmı \label{overflow}}
+\end{figure}
+
+\subsection{Dosya İçerisinde Spesifik Değişiklikler Yapılabilmesi}
+Maalesef bu başlıkta dosya içine erişimden kaynakılı problemlerden ötürü olsun atama problemlerinden dolayı yazdırma esnasında bellekten rastgele değerler dönmesinden dolayı char tipli karakterlerin içindeki kaymalardan olsun bu işlevi fonksiyon olarak ekleyemedik.
+
+\subsection{Yetim Etiketlerin Güncellenerek Değiştirilmesi}
+Yetim etiketlerin yetim etiket olmalarındaki nihai sebep olan dosyalarının olmayışı durumu ortadan kaldırılarak yetim etiketler yetim etiket statüsünden normal etiket statüsüne değiştirilebilir. Bunun için yalnızca yetim etiketin hangisinin dönüştürüleceği belirtilmeli, belirtilen yetim etikete kendi adında bir dosya oluşturulmalıdır. Dosya oluşturma kısmı Fig 6 da yetim  etiketin statüsünün değiştirilmesi Fig 7 de belirtilmiştir(Net gözükmeyen fotoğraflar için kod satırı belirtilecektir).
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{dosya olustur.png}
+\caption{Yetim etiketin statüsünün değiştirilmesi için gereken dosya oluşturma fonksiyonunun bulunduğu kod kısmı (53 ila 79. satırlar arası)\label{overflow}}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{yetimdonusum.png}
+\caption{Yetim etiketin statüsünün kimliğe göre değiştirildiği kod kısmı(614. ila 626. satırlar) \label{overflow}}
+\end{figure}
+
+\subsection{İstenen Etiketin Statüsünün Değiştirilmesi}
+İstenen etiket için dosya güncellediğimizde print alamamızdan ve daha bilemediğimiz bazı sebeplerden dolayı bu işlevi yapamıyoruz.
+
+\subsection{Etiket İsmi Değiştirme}
+Dosya içi güncellemede atana char dizisi kaydığından ve bellekten rastgele değerler atadığından, aynı zamanda dosya ismi değiştirirken de normalde çalışan rename fonksiyonunda sebebi belirlenemyen bir hatadan dolayı olan işlevsizlikten dolayı bu hizmet görülememektedir.
+
+\subsection{Çıktıların Output.txt Dosyasına Yazdırılması}
+Ekrana yazdırılan ifadelerin ayrı bir değişken içerisine aktarılarak programın sonunda Üniversite klasörünün dizininde buluna output.txt dosyasına yazdırılmasıyla karşılanan fonksiyondur. Fig 8 de gösterilmiştir(Net gözükmeyen fotoğraflar için kod satırı belirtilecektir).
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{yetimdonusum.png}
+\caption{Ekrandaki çıktıların output.txt dosyasına yazdırılması işlevini ifade eden kod(628. ila 680. satırlar) \label{overflow}}
+\end{figure}
+
+\section{Sonuç}
+
+\subsection{Programın Yapabildikleri ve İşlevsellikler Hakkında}
+Proframımız yöntemler ve kod ifadeleriyle de anltıldığı üzere yerine getirilmesi istenen işlevlerin bir kısmını yapabilir olup bunlar : Dosyaların ve dosya dizinlerinin alınıp listelenebilmesi, etiketlerin tespit edilmesi ve listelenebilmesi, aranan kelime ve etiketin konumlarıyla beraber bulunabilmesi, yetim etiketlerin belirlenebilmesi, yetim etiketlerin statülerinin güncellenebilmesi, istenen etiketlerinn bulunabilmesi ve çıktıların output.txt dosyasına yazdırılmasıdır.
+
+\section{Deneysel Çıktılar}
+
+\subsection{Deneysel Çıktıların Açıklamalarıyla Verilmiş Halleri}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{arama.jpeg}
+\caption{Ekrandaki çıktılar etiket tipi bir aramayı örneklendirmektedir.\label{overflow}}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{menü.jpeg}
+\caption{Ekrandaki çıktılar programın genel menüsünü ifade etmektedir. \label{overflow}}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{kelime arama.jpeg}
+\caption{Ekrandaki çıktılar kelime tipi bir aramayı örneklendirmektedir. \label{overflow}}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{etiket listeleme.jpeg}
+\caption{Ekrandaki çıktılar etiket listeleme işlevini örneklendirmektedir. \label{overflow}}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=90mm]{WhatsApp Image 2022-10-24 at 1.13.13 AM (7).jpeg}
+\caption{Ekrandaki çıktılar yetim ve istenen etiketleri listeleme konusundaki örnekleri ifade etmektedirler. \label{overflow}}
+\end{figure}
+
+\section{Kapanış ve Kaynakça}
+Çıktılar yüklenen dosya  üzerindeki işlemlerden alınmıştır.
+
+\subsection{Kaynakça}
+https://www.youtube.com/watch?v=j9yL30R6npk\\
+https://stackoverflow.com/questions/72113675/file-name-from-a-string-with-file-path-c-sharp\\
+https://stackoverflow.com/questions/2445370/how-to-create-custom-filenames-in-c\\
+https://stackoverflow.com/questions/2795382/enter-custom-file-name-to-be-read\\
+https://codeforwin.org/2018/03/c-program-rename-a-file-using-rename-function.html\\
+https://stackoverflow.com/questions/41540599/accessing-foreign-language-string-character-by-character\\
+https://stackoverflow.com/questions/41359168/in-c-language-how-can-i-make-a-scanf-function-that-doesnt-need-to-require-the-u\\
+https://stackoverflow.com/questions/37225244/error-assignment-to-expression-with-array-type-error-when-i-assign-a-struct-f\\
+https://stackoverflow.com/questions/2445370/how-to-create-custom-filenames-in-c\\
+2021-2022 Programlama 2  Pointer ve Dizi Slaytı\\
+2021-2022 Programlama 2  Karakter Dizisi Slaytı\\
+2021-2022 Programlama 2  String Kütüphaneleri Slaytı\\
+2021-2022 Programlama 2  8 Bellek Dosya Sistemleri Slaytı\\
+
+
+\end{document}

@@ -1,0 +1,8 @@
+Ders Kodu : BLM179
+
+Ders Adi : Statik
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[NesetBaspinar]] nesetbaspinar@kocaeli.edu.tr 02987453842
+		     Prof. Dr. [[AhmetMengic]] ahmetmengic@kocaeli.edu.tr 02657382564
+
+Ders Icerigi : Bu ders statik denklemlerin ve durumlarin anlasilip cozulmesini ogretmeyi acıklamaktadir.

@@ -1,0 +1,32 @@
+ {etiket listesi} : {tekrar sayisi}
+
+Matematik_I : 2
+
+Programlama_I : 3
+
+Matematik_II : 1
+
+Programlama_II : 1
+
+Nesneye Yonelik Programlama : 1
+
+Gorsel Programlama : 2
+
+VeritabaniYonetimi : 1
+
+Tarih : 1
+
+kiz : 1
+
+Ahmet ERDIL : 6
+
+Hikmet Hakan GUREL : 3
+
+Ahmet SAYAR : 2
+
+
+
+Yetimetiketler
+VeritabaniYonetimi
+Ahmet ERDIL
+Ahmet SAYAR

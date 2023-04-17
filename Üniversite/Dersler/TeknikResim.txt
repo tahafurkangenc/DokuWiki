@@ -1,0 +1,7 @@
+Ders Kodu : BLM105
+
+Ders Adi : Teknik Resim
+
+Ogretim Elemanları : Prof. Dr. [[AhmetCihanNihengi]] nihengi@kocaeli.edu.tr
+
+Ders Icerigi : Bu ders ogrencilere temel teknik resim cizimini ogretmek icindir.

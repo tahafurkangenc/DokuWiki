@@ -1,0 +1,8 @@
+Ders Kodu : BLM144
+
+Ders Adi : [[GucElektronigi]]
+
+Ogretim Elemanlari : Prof. Dr. [[ErhanSonmez]] erhansonmez@kocaeli.edu.tr
+		     Prof. Dr.  [[AylinCicek]] aylincicek@kocaeli.edu.tr 0217283462849
+
+Ders Icerigi : Bu derste yuksek guc iceren elektronik devrelerinin yapilari ve calisma prensiplerinin anlatilmasi amaclanmistir.

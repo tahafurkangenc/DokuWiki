@@ -1,0 +1,7 @@
+Ders Kodu : BLM199
+
+Ders Adi : Dokum Teknigi
+
+Ogreitim Elemanlari : Prof. Dr. [[NabiKorkmaz]] nabikorkmaz@kocaeli.edu.tr 0259627452840
+
+Ders Icerigi : Bu ders dokum teknikleri ve uygulamalarının anlatılıp ogretilmesini amaclamaktadir.

@@ -1,0 +1,10 @@
+Dersin Kodu        : BLM109
+
+Dersin Adi         : Nesneye Yonelik Programlama
+
+Ogretim Elemanlari : Prof. Dr. [[Ahmet ERDIL]]	erdil@kocaeli.edu.tr	02623033223
+                     Prof. Dr. [[Ahmet SAYAR]]	ahmet.sayar@kocaeli.edu.tr	02623033583
+                     Prof. Dr. [[Hikmet Hakan GUREL]]	hhakan.gurel@kocaeli.edu.tr	2623032215
+                     Dr. Ogr. Uyesi [[Alev MUTLU]	alev.mutlu@kocaeli.edu.tr	02623033577
+
+Dersin Icerigi     : Bu ders;nesneye yonelik problem cozme, sinif, nesne kavramlari, sinif yapisi, kurucu ve yok ediciler, ozel, korunmus ve genel bolumler, sinif icinde operator ve fonksiyon isimlerinin yeniden yuklenmesi, turemis siniflar, sanal siniflar, cok sekillilik,kalitim ve uygulamalari kapsar. [[Gorsel Programlama]] dersi ile destekli ilerlemektedir.

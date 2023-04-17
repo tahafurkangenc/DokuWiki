@@ -1,0 +1,7 @@
+Ders Kodu : BLM129
+
+Ders Adi : [[BilgisayarMuhendisligineGiris]]
+
+Ogretim Elemanlari : Prof. Dr. [[AhiDonmez]] ahidonmez@kocaeli.edu.tr
+
+Ders Icerigi : Bu derste Bilgisayar Muhendisligi bolumune yeni baslayanlara bolumun genel anlamda anlatılması amaçlanmaktadır.

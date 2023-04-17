@@ -1,0 +1,7 @@
+Ders Kodu : BLM138
+
+Ders Adi : Programlama
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[YasinBudak]] yasinbudak@kocaeli.edu.tr
+
+Ders Icerigi : Bu derste temel bağlamda c dilinin ogrenilmesi ve algoritma kurma becerisi kazanilmasi amaclanmistir.  

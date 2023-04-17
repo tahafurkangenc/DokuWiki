@@ -1,0 +1,9 @@
+Ders Kodu : BLM119
+
+Ders Adi : [[AkiskanlarMekanigi]]
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[MehmetBalkanli]] mehmetbalkan.kocaeli.edu.tr 02568392517
+		     Prof. Dr. [[AhmetMengic]] ahmetmengic@kocaeli.edu.tr 02657382564
+
+
+Ders Icerigi : Bu ders akiskanlarin mukavemet iile olan  iliskisinin arastirilip ogrenilmesini amaclamaktadir.

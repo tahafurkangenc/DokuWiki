@@ -1,0 +1,8 @@
+Ders Kodu : BLM112
+
+Ders Adi : Celik Yapilar
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[NafizBayraktar]] nafiz@kocaeli.edu.tr 02327983743
+		     Dr. Ogr. Uyesi [[EminGungor]] emingngr@kocaeli.edu.tr 0233789456		     
+
+Ders Icerigi : Bu ders ileri celik yapilarin mukavemeti konusunda eğitim için anlatılmaktadır.

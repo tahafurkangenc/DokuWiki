@@ -1,0 +1,3 @@
+Guz Zorunlu dersler: [[Matematik_I]] , [[Programlama_I]].
+Bahar Zorunlu Dersler: [[Matematik_II]] , [[Programlama_II]].
+Secmeli Dersler: [[Nesneye Yonelik Programlama]] , [[Gorsel Programlama]], [[VeritabaniYonetimi]], [[Tarih]].

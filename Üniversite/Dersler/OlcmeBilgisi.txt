@@ -1,0 +1,7 @@
+Ders Kodu : BLM 109
+
+Ders Adi : [[OlcmeBilgisi]]
+
+Ogretim Elemanlari : Prof. Dr. [[SahinGul]] sahingul@kocaeli.edu.tr
+
+Ders Icerigi : Bu ders ögrencilerin ölcme becerilerini gelistirmek icin yapılır. 

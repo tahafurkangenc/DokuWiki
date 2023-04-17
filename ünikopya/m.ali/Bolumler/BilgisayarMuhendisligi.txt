@@ -1,0 +1,5 @@
+Guz Zorunlu Dersler : [[MatematikI]] , [[Programlama]]
+
+Bahar Zorunlu Dersler : [[FizikII]] , [[BilgisayarMuhendisligineGiris]]
+
+Secmeli Dersler : [[Isletim Sistemleri]] , [[BilgisayarOrganizasyonuMimarisi]]

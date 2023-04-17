@@ -1,0 +1,5 @@
+Guz Zorunlu Dersleri : [[MakinaDinamigi]] , [[MakinaMuhendisligineGiris]] , [[FizikII]] , [[MatematikI]]
+
+Bahar Zorunlu Dersleri : [[MalzemeBilimineGiris]] , [[Statik]]
+
+Secmeli Dersler : [[DokumTeknigi]] , [[KariyerPlanlama]]

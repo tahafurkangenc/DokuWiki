@@ -1,0 +1,7 @@
+Ders Kodu : BLM175
+
+Ders Adi : [[MakinaMuhendisligineGiris]]
+
+Ogretim Elemanlari : Prof. Dr. [[DanyalCimen]] danyalcimen@kocaeli.edu.tr 02658274619
+
+Ders Icerigi : Bu ders Makina Muhendisligi bolumune yeni baslayan ogrencilere bolumu anlatmak icindir.

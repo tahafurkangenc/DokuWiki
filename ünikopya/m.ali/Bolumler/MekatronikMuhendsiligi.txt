@@ -1,0 +1,5 @@
+Guz Zorunlu Dersleri : [[SistemDinamigi]] , [[MekatronikMuhendisligineGiris]]
+
+Bhar Zorunlu Dersleri : [[Muhendislik Malzemeleri]] , [[Dinamik]] , [[MatematikI]] , [[Fizikii]]
+
+Secmeli Dersler : [[GucElektronigi]] , [[OtomatikKontrol]]

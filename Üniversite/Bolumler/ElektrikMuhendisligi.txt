@@ -1,0 +1,5 @@
+Guz Zorunlu Dersler : [[MatlabUygulamalari]] , [[GorselProgramlama]] , [[FizikII]]
+
+Bahar Zorunlu Dersleri: [[DevreYazilimUygulamalari]] , [[ElektrikDevreLab]] , [[MatematikI]]
+
+Secmeli Dersler : [[Malzeme]] , [[ElektrikMuhendsiligineGiris]]

@@ -1,0 +1,7 @@
+Ders Kodu : BLM125
+
+Ders Adi : [[MatematikII]]
+
+Ogretim Elemanlari : Prof. Dr. [[CahitArf]] cahitarf@kocaeli.edu.tr
+
+Ders Icerigi : Bu derste genel anlamda Calculus I' in anlatilmasi amaclanmistir.

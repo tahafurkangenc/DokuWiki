@@ -1,0 +1,7 @@
+Ders Kodu : BLM111
+
+Ders Adi : [[DevreYazilimUygulamalari]]
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[Samiİnanc]] samiinanc@kocaeli.edu.tr 02784496528
+
+Ders Icerigi : Bu ders devrelerde devre ile yazilim iliskisininin bagdastirilmasinin ogrenilmesi icindir.

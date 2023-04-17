@@ -1,0 +1,7 @@
+Ders Kodu : BLM198
+
+Ders Adi : [[FizikII]]
+
+Ogretim Elemanlari : Prof. Dr. [[AlbertCamus]] albertcamus@kocaeli.edu.tr
+
+Ders Icerigi : Bu derste genel anlamda fizikI adi altinda kuvvetten elektroniğe giris konulari islenecektir.

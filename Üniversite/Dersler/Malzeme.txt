@@ -1,0 +1,8 @@
+Ders Kodu : BLM133
+
+Ders Adi : Malzeme
+
+Ogretim Elemanlari : Prof. Dr. [[SalimCakirli]] salim@kocaeli.edu.tr 023479833851
+		     Dr. Ogr. Uyesi [[TahirDilmen]] tahirdlmn@kocaeli.edu.tr 0245628417263
+
+Ders Icerigi : Bu ders malzeme bilimi konusunda bilgilendirme ve yeterlilik olcumu icindir.

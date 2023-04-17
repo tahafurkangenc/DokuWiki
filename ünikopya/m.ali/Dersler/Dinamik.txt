@@ -1,0 +1,8 @@
+Ders Kodu : BLM139
+
+Ders Adi : Dinamik
+
+Ogretim Elemanlari : Prof. Dr.  [[AylinCicek]] aylincicek@kocaeli.edu.tr 0217283462849
+		     Dr. Ogr. Uyesi [[SuheylaCanverdi]] suheylacanverdi@kocaeli.edu.tr 02797284627
+
+Ders Icerigi : Bu  derste dinamik mukavemetin etkilerinin ve sonuçlarinin baglantili bicimde anlatilmasi amaclanmistir.

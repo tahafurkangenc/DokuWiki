@@ -1,0 +1,7 @@
+Ders Kodu : BLM155
+
+Ders Adi : [[OtomatiKontrol]]
+
+Ogretim Elemanlari : Dr. Ogr. Uyesi [[SuhapVarsiz]] suhapvarsiz@kocaeli.edu.tr 02712836173
+
+Ders Icerigi : Bu derste devreler ve akilli sistemlerde otomatik kontrol yapilarinin calismasinin calismasinin anlatilmasi ve prensiplerinin anlatilmasi amaclanmistir.

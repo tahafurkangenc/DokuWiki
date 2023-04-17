@@ -1,0 +1,5 @@
+Guz Zorunlu Dersler : [[CelikYapilar]] , [[InsaatMuhendisligineGiris]] , [[MatematikI]]
+
+Bahar Zorunlu Dersler : [[OlcmeBilgisi]] , [[TeknikResim]] , [[FizikII]]
+
+Secmeli Dersler : [[SuKaynaklariMuhendisligi]] , [[SoilMechanics]]

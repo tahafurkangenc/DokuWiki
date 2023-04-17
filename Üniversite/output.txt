@@ -1,0 +1,173 @@
+ {etiket listesi} : {tekrar sayisi}
+
+MatematikI : 6
+
+Programlama : 1
+
+FizikII : 6
+
+BilgisayarMuhendisligineGiris : 2
+
+IsletimSistemleri : 2
+
+BilgisayarOrganizasyonuMimarisi : 1
+
+MatlabUygulamalari : 1
+
+GorselProgramlama : 1
+
+DevreYazilimUygulamalari : 2
+
+ElektrikDevreLab : 1
+
+Malzeme : 1
+
+ElektrikMuhendsiligineGiris : 1
+
+CelikYapilar : 2
+
+InsaatMuhendisligineGiris : 2
+
+OlcmeBilgisi : 2
+
+TeknikResim : 2
+
+SuKaynaklariMuhendisligi : 2
+
+SoilMechanics : 1
+
+MakinaDinamigi : 1
+
+MakinaMuhendisligineGiris : 2
+
+MalzemeBilimineGiris : 1
+
+Statik : 2
+
+DokumTeknigi : 1
+
+KariyerPlanlama : 1
+
+SistemDinamigi : 2
+
+MekatronikMuhendisligineGiris : 2
+
+MuhendislikMalzemeleri : 1
+
+Dinamik : 1
+
+GucElektronigi : 2
+
+OtomatikKontrol : 2
+
+AkiskanlarMekanigi : 2
+
+MehmetBalkanli : 1
+
+AhmetMengic : 2
+
+AhiDonmez : 1
+
+NafizBayraktar : 1
+
+EminGungor : 2
+
+Samiİnanc : 1
+
+AylinCicek : 2
+
+SuheylaCanverdi : 1
+
+NabiKorkmaz : 1
+
+DiyarSalman : 1
+
+AlbertCamus : 1
+
+ErhanSonmez : 1
+
+DanyalCimen : 1
+
+SalimCakirli : 1
+
+TahirDilmen : 1
+
+MatematikII : 1
+
+CahitArf : 1
+
+MatlabUygulmalari : 1
+
+ErdincGocmen : 1
+
+HuseyinTarifli : 1
+
+SahinGul : 1
+
+OtomatiKontrol : 1
+
+SuhapVarsiz : 1
+
+YasinBudak : 1
+
+NesetBaspinar : 1
+
+
+
+Yetimetiketler
+MatematikI
+Programlama
+FizikII
+BilgisayarMuhendisligineGiris
+IsletimSistemleri
+BilgisayarOrganizasyonuMimarisi
+MatlabUygulamalari
+GorselProgramlama
+DevreYazilimUygulamalari
+ElektrikDevreLab
+Malzeme
+ElektrikMuhendsiligineGiris
+CelikYapilar
+InsaatMuhendisligineGiris
+OlcmeBilgisi
+TeknikResim
+SuKaynaklariMuhendisligi
+SoilMechanics
+MakinaDinamigi
+MakinaMuhendisligineGiris
+MalzemeBilimineGiris
+Statik
+DokumTeknigi
+KariyerPlanlama
+SistemDinamigi
+MekatronikMuhendisligineGiris
+MuhendislikMalzemeleri
+Dinamik
+GucElektronigi
+OtomatikKontrol
+AkiskanlarMekanigi
+MehmetBalkanli
+AhmetMengic
+AhiDonmez
+NafizBayraktar
+EminGungor
+Samiİnanc
+AylinCicek
+SuheylaCanverdi
+NabiKorkmaz
+DiyarSalman
+AlbertCamus
+ErhanSonmez
+DanyalCimen
+SalimCakirli
+TahirDilmen
+MatematikII
+CahitArf
+MatlabUygulmalari
+ErdincGocmen
+HuseyinTarifli
+SahinGul
+OtomatiKontrol
+SuhapVarsiz
+YasinBudak
+NesetBaspinar
